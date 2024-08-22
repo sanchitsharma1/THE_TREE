@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask App</title>
+</head>
+<body>
+    <h1>Run Scripts</h1>
+    <form method="POST">
+        <button name="ps1">Run Script 1</button><br><br>
+        <button name="ps2">Run Script 2</button><br><br>
+        <button name="ps3">Run Script 3</button><br><br>
+        <button name="ps4">Run Script 4</button><br><br>
+        <button name="ps5">Run Script 5</button>
+    </form>
+    {% if output %}
+        <p>{{ output }}</p>
+    {% endif %}
+</body>
+</html>
